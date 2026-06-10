@@ -1,0 +1,23 @@
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #ECF2F8;
+}
+main{
+    width: 327px;
+    height: 538px;
+    margin: 24px auto 64px auto;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.image-container{
+    height: 200px;
+    overflow: hidden;
+    margin-bottom: 32px;
+}
+.picture{
+    width: 100%;
+}
