@@ -20,6 +20,7 @@ main{
     margin: 24px auto 64px auto;
     border-radius: 10px;
     overflow: hidden;
+    background-color: #fff;
 }
 .image-container{
     height: 200px;
@@ -33,7 +34,34 @@ section{
 }
 .container{
     width: 267px;
-    margin: 32px auto
+    margin: 32px auto;
+}
+.horizontal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.avatar{
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 16px;
+}
+.autor{
+    display: flex;
+    align-items: flex-end;
+}
+.autor-name{
+    display: flex;
+    flex-direction: column;
+}
+button{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
 }
 
 /* font */
@@ -46,16 +74,22 @@ section{
     line-height: 130%;
     color: var(--grey900);
     width: 267px;
+    margin-bottom: 24px;
 }
 .text2-Medium{
     font-weight: 500;
     letter-spacing: 0.12%;
+    color: var(--grey500);
+    margin-bottom: 48px;
 }
 .text2-Bold{
     font-weight: 700;
     letter-spacing: 0.12%;
+    color: var(--grey900);
+    font-size: 13px;
 }
 .text3{
     font-weight: 500;
     letter-spacing: 25%;
+    color: var(--grey400);
 }
