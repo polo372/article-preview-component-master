@@ -15,6 +15,7 @@ body{
     line-height: 140%;
     font-size: 13px;
 }
+
 main{
     width: 327px;
     margin: 24px auto 64px auto;
@@ -54,14 +55,33 @@ section{
     display: flex;
     flex-direction: column;
 }
-button{
-    width: 32px;
-    height: 32px;
-    border-radius: 50%;
-    border: none;
+.grey{
+    background-color: var(--grey900);
+    height: 76px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
 }
-button:hover{
-    cursor: pointer;
+.grey-container{
+    width: 267px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-container{
+    display: flex;
+    align-items: center;
+}
+.share{
+    margin-right: 24px;
+}
+.icone{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
 }
 
 /* font */
@@ -92,4 +112,25 @@ button:hover{
     font-weight: 500;
     letter-spacing: 25%;
     color: var(--grey400);
+}
+
+/* composant */
+button{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: none;
+    text-align: center;
+}
+button:hover{
+    cursor: pointer;
+}
+.grey-btn{
+    /* background-color: var(--grey500); */
+}
+#grey-img{
+     fill: currentColor !important;
+}
+.hidden{
+    display: none;
 }
