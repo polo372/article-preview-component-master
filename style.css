@@ -3,12 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root{
+    --grey900: #48556A;
+    --grey500: #6E8098;
+    --grey400: #9DAEC2;
+    --grey200: #ECF2F8;
+}
 body{
-    background-color: #ECF2F8;
+    background-color: var(--grey200);
+    font-family: "Manrope", sans-serif;
+    line-height: 140%;
+    font-size: 13px;
 }
 main{
     width: 327px;
-    height: 538px;
     margin: 24px auto 64px auto;
     border-radius: 10px;
     overflow: hidden;
@@ -16,8 +24,38 @@ main{
 .image-container{
     height: 200px;
     overflow: hidden;
-    margin-bottom: 32px;
 }
 .picture{
     width: 100%;
+}
+section{
+    margin-bottom: 48px;
+}
+.container{
+    width: 267px;
+    margin: 32px auto
+}
+
+/* font */
+
+.text1 {
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    line-height: 130%;
+    color: var(--grey900);
+    width: 267px;
+}
+.text2-Medium{
+    font-weight: 500;
+    letter-spacing: 0.12%;
+}
+.text2-Bold{
+    font-weight: 700;
+    letter-spacing: 0.12%;
+}
+.text3{
+    font-weight: 500;
+    letter-spacing: 25%;
 }
