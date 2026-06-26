@@ -30,9 +30,9 @@ main{
 .picture{
     width: 100%;
 }
-section{
+/* section{
     margin-bottom: 48px;
-}
+} */
 .container{
     width: 267px;
     margin: 32px auto;
@@ -125,12 +125,41 @@ button{
 button:hover{
     cursor: pointer;
 }
-.grey-btn{
-    /* background-color: var(--grey500); */
-}
-#grey-img{
-     fill: currentColor !important;
-}
 .hidden{
     display: none;
+}
+
+/* media view */
+@media(min-width: 768px){
+    body{
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+    }
+    main{
+        display: flex;
+        width: 608px;
+        height: 346px;
+        align-content: center;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+    }
+    .image-container{
+        width: 229px;
+        height: 346px;
+        
+    }
+    .picture{
+        height: 100%;
+    }
+    .grey{
+        position: absolute;
+    }
+    .hidden{
+        display: ;
+    }
 }
