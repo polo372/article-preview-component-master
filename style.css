@@ -151,15 +151,42 @@ button:hover{
     .image-container{
         width: 229px;
         height: 346px;
-        
     }
     .picture{
         height: 100%;
     }
+    .text2-Medium{
+        margin-bottom: 24px;
+    }
+    .horizontal{
+        position: relative;
+    }
     .grey{
         position: absolute;
+        bottom: 35%;
+        left: 70%;
+        width: 248px;
+        height: 55px;
+        border-radius: 10px;
     }
-    .hidden{
-        display: ;
+    .grey-container{
+        justify-content: space-around
+    }
+    .grey-btn{
+        display: none;
+    }
+}
+@media (min-width: 1024px) {
+    main{
+        width: 730px;
+        height: 280px;
+    }
+    .image-container{
+        width: 285px;
+        height: 280px;
+    }
+    .container{
+        width: 365px;
+        height: 220px;
     }
 }
