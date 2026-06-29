@@ -14,7 +14,6 @@ This is a solution to the [Article preview component challenge on Frontend Mento
   - [AI Collaboration](#ai-collaboration)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -65,8 +64,6 @@ This element allows the interaction to be adapted based on the screen size.
 let mql = window.matchMedia("(width <= 767px)");
     if(mql.matches)
 ```
-
-
 
 ### AI Collaboration
 

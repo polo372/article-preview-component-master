@@ -1,6 +1,5 @@
 const white = document.getElementById("white");
-const grey = document.getElementById("grey")
-const btnGrey = document.getElementById("btnGrey")
+const grey = document.getElementById("grey");
 
 // Verifie la taille de l'écran et permet le changement de class si true
 

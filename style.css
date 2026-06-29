@@ -31,9 +31,6 @@ main{
 .picture{
     width: 100%;
 }
-/* section{
-    margin-bottom: 48px;
-} */
 .container{
     width: 267px;
     margin: 32px auto 0 auto;
@@ -48,11 +45,11 @@ main{
     border-radius: 50%;
     margin-right: 16px;
 }
-.autor{
+.author{
     display: flex;
     align-items: flex-end;
 }
-.autor-name{
+.author-name{
     display: flex;
     flex-direction: column;
 }
