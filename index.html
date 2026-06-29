@@ -16,39 +16,48 @@
     <div class="image-container">
       <img class="picture" src="./images/drawers.jpg" alt="photo of a green desk with flower on the top">
     </div>
-    <div class="container">
-      <section>
-        <h1 class="text1">Shift the overall look and feel by adding these wonderful 
-        touches to furniture in your home</h1>
-        <p class="text2-Medium">Ever been in a room and felt like something was missing? Perhaps 
-        it felt slightly bare and uninviting. I’ve got some simple tips 
-        to help you make any room feel complete.
-        </p>
-      </section>
-      <div class="horizontal" id="white">
-        <div class="autor">
-          <img class="avatar" src="./images/avatar-michelle.jpg" alt="photo of michelle, the autor">
-            <div class="autor-name">
-              <h2 class="text2-Bold">Michelle Appleton</h2>
-              <p class="text3">28 Jun 2020</p>
-            </div>
-        </div>
-        <button id="btnShare" class="white-btn"><img src="./images/icon-share.svg" alt="Share"></button>
+    <div class="flex_container">
+      <div class="container">
+        <section>
+          <h1 class="text1">Shift the overall look and feel by adding these wonderful 
+          touches to furniture in your home</h1>
+          <p class="text2-Medium">Ever been in a room and felt like something was missing? Perhaps 
+          it felt slightly bare and uninviting. I’ve got some simple tips 
+          to help you make any room feel complete.
+          </p>
+        </section>
       </div>
-    </div>
-    <div class="grey hidden" id="grey">
-      <div class="grey-container">
-        <div class="icon-container">
-          <p class="share text3">SHARE</p>
-          <div class="icone">
-            <a href="http://"><img src="/images/icon-facebook.svg" alt=""></a>
-            <a href="http://"><img src="/images/icon-twitter.svg" alt=""></a>
-            <a href="http://"><img src="/images/icon-pinterest.svg" alt=""></a>
+        <div class="horizontal" >
+          <div class="white" id="white">
+            <div class="autor">
+              <img class="avatar" src="./images/avatar-michelle.jpg" alt="photo of michelle, the autor">
+                <div class="autor-name">
+                  <h2 class="text2-Bold">Michelle Appleton</h2>
+                  <p class="text3">28 Jun 2020</p>
+                </div>
+            </div>
+            <button id="btnShare" class="white-btn">
+              <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#6E8098" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+            </button>
+          </div>
+          <div class="grey hidden" id="grey">
+            <div class="grey-container">
+              <div class="icon-container">
+                <p class="share text3">SHARE</p>
+                <div class="icone">
+                  <a href="http://"><img src="/images/icon-facebook.svg" alt=""></a>
+                  <a href="http://"><img src="/images/icon-twitter.svg" alt=""></a>
+                  <a href="http://"><img src="/images/icon-pinterest.svg" alt=""></a>
+                </div>
+              </div>
+              <button id="btnGrey" class="grey-btn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="15" height="13"><path fill="#fff" d="M15 6.495L8.766.014V3.88H7.441C3.33 3.88 0 7.039 0 10.936v2.049l.589-.612C2.59 10.294 5.422 9.11 8.39 9.11h.375v3.867L15 6.495z"/></svg>
+              </button>
+              <div class="triangle"></div>
+            </div>  
           </div>
         </div>
-        <button id="btnGrey" class="grey-btn"><img src="./images/icon-share.svg" alt="Share" id="grey-img"></button>
-      </div>  
-    </div>
+      </div>
   </main>
 </body>
 <script src="script.js"></script>
